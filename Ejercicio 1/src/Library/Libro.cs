@@ -17,7 +17,7 @@ namespace SRP
             this.Author = author;
             this.Code = code;
         }
-
+        // Esto puede ser su propio class con la responsibilidad de guardar los libros.
         public void ShelveBook(String sector, String shelve)
         {
             this.LibrarySector = sector;
